@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4d648f5-0713-4b73-9482-0d6728f8a85a" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/netty_lecture$myChatClient.ic" NAME="myChatClient Coverage Results" MODIFIED="1574257064819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bianzj.netty.thirdExample.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="netty.lecture" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="netty.lecture" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/fifthExample/myServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/webapp/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="46" column="75" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
+              <folding>
+                <element signature="n#style#0;n#textarea#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/fifthExample/testWebSocketFrameHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SimpleChannelInboundHandler</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="D:\gradle-4.6-rc-2" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4.6" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="netty.lecture" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="netty.lecture" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'netty.lecture'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'netty.lecture'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'netty.lecture'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'netty.lecture'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'netty.lecture'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'netty.lecture'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'netty.lecture'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'netty.lecture'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'netty.lecture'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4722442632271" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="396536593" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="3968337415" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="netty.lecture" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="D:/gradle-4.6-rc-2/lib/ant-1.9.9.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/ant-launcher-1.9.9.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-base-services-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-base-services-groovy-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-build-cache-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-build-option-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-cli-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-core-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-core-api-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-docs-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-installation-beacon-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-jvm-services-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-kotlin-dsl-0.15.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-kotlin-dsl-tooling-builders-0.15.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-kotlin-dsl-tooling-models-0.15.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-launcher-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-logging-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-messaging-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-model-core-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-model-groovy-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-native-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-persistent-cache-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-process-services-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-resources-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-runtime-api-info-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-tooling-api-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/gradle-wrapper-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/groovy-all-2.4.12.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-announce-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-antlr-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-build-cache-http-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-build-comparison-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-build-init-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-code-quality-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-composite-builds-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-dependency-management-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-diagnostics-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-ear-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-ide-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-ide-native-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-ide-play-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-ivy-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-jacoco-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-javascript-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-language-groovy-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-language-java-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-language-jvm-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-language-native-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-language-scala-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-maven-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-osgi-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-platform-base-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-platform-jvm-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-platform-native-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-platform-play-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-plugin-development-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-plugin-use-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-plugins-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-publish-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-reporting-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-resources-gcs-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-resources-http-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-resources-s3-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-resources-sftp-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-scala-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-signing-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-test-kit-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-testing-base-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-testing-junit-platform-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-testing-jvm-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-testing-native-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-tooling-api-builders-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-version-control-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/gradle-workers-4.6.jar" />
+                  <option value="D:/gradle-4.6-rc-2/lib/plugins/ivy-2.2.0.jar" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="D:/pmt" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/firstExample/TestServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/firstExample/TestHttpServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/firstExample/TsetServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/secondExample/MyServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/secondExample/MyServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/secondExample/MyServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/secondExample/MyClientInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/secondExample/MyClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/thirdExample/myChatServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/thirdExample/myChatClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/thirdExample/myChatClientInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/secondExample/MyClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/thirdExample/myChatServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/thirdExample/myChatClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/thirdExample/myChatServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/forthexample/myServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/forthexample/myServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/forthexample/myServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/fifthExample/myServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/fifthExample/myServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/fifthExample/webSocketChannelInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/fifthExample/myServer.java" />
+        <option value="$PROJECT_DIR$/src/webapp/test.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bianzj/netty/fifthExample/testWebSocketFrameHandler.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="netty.lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty.lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty.lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty.lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty.lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty.lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty.lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty.lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty.lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty.lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty.lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty.lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty.lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty.lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="fifthExample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty.lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty.lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty.lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="netty.lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: io.netty:netty-all:4.1.43.Final" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="netty.lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: io.netty:netty-all:4.1.43.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-all-4.1.43.Final.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty.lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: io.netty:netty-all:4.1.43.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-all-4.1.43.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty.lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: io.netty:netty-all:4.1.43.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-all-4.1.43.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="SimpleChannelInboundHandler&#9;PSI&#9;JAVA://io.netty.channel.SimpleChannelInboundHandler" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574331548533" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.test.html">
+    <configuration name="myChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bianzj.netty.thirdExample.myChatClient" />
+      <module name="netty.lecture_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bianzj.netty.thirdExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bianzj.netty.thirdExample.myChatServer" />
+      <module name="netty.lecture_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bianzj.netty.thirdExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bianzj.netty.fifthExample.myServer" />
+      <module name="netty.lecture_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bianzj.netty.fifthExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bianzj.netty.forthexample.myServer" />
+      <module name="netty.lecture_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bianzj.netty.forthexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/netty.lecture/src/webapp/test.html">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.myChatServer" />
+      <item itemvalue="Application.myChatClient" />
+      <item itemvalue="Application.myServer" />
+      <item itemvalue="Application.myServer (1)" />
+      <item itemvalue="JavaScript Debug.test.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.myServer (1)" />
+        <item itemvalue="JavaScript Debug.test.html" />
+        <item itemvalue="Application.myChatClient" />
+        <item itemvalue="Application.myServer" />
+        <item itemvalue="Application.myChatServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4d648f5-0713-4b73-9482-0d6728f8a85a" name="Default Changelist" comment="" />
+      <created>1574147164144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574147164144</updated>
+      <workItem from="1574147171939" duration="5926000" />
+      <workItem from="1574217277141" duration="4296000" />
+      <workItem from="1574234455472" duration="7692000" />
+      <workItem from="1574252949174" duration="2287000" />
+      <workItem from="1574257363287" duration="1129000" />
+      <workItem from="1574306883219" duration="9031000" />
+      <workItem from="1574407778941" duration="653000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="31014000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23190348" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29844412" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33097595" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/gradle-4.6-rc-2/lib/gradle-core-api-4.6.jar!/org/gradle/api/artifacts/dsl/RepositoryHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.43.Final/acaa896a0890ca6c902fa9fe64a282dead26f183/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="811" column="23" selection-start-line="811" selection-start-column="23" selection-end-line="811" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.43.Final/f373e16375242903170434deba3cb8e7fd3bf622/netty-all-4.1.43.Final.jar!/io/netty/handler/codec/http/websocketx/WebSocketServerHandshaker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3630">
+          <caret line="158" column="13" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.43.Final/f373e16375242903170434deba3cb8e7fd3bf622/netty-all-4.1.43.Final.jar!/io/netty/handler/codec/http/websocketx/WebSocketClientHandshaker.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.43.Final/acaa896a0890ca6c902fa9fe64a282dead26f183/netty-all-4.1.43.Final-sources.jar!/io/netty/handler/codec/http/HttpResponseStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.43.Final/acaa896a0890ca6c902fa9fe64a282dead26f183/netty-all-4.1.43.Final-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketClientHandshaker.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.43.Final/acaa896a0890ca6c902fa9fe64a282dead26f183/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/firstExample/TsetServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/firstExample/TestServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.43.Final/acaa896a0890ca6c902fa9fe64a282dead26f183/netty-all-4.1.43.Final-sources.jar!/io/netty/handler/codec/http/HttpVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.43.Final/acaa896a0890ca6c902fa9fe64a282dead26f183/netty-all-4.1.43.Final-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketServerHandshaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="266" column="31" selection-start-line="266" selection-start-column="31" selection-end-line="266" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.43.Final/acaa896a0890ca6c902fa9fe64a282dead26f183/netty-all-4.1.43.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/secondExample/MyServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="63" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="20" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/firstExample/TestHttpServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.43.Final/acaa896a0890ca6c902fa9fe64a282dead26f183/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/group/DefaultChannelGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/thirdExample/myChatClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_221/jre/lib/rt.jar!/sun/nio/ch/SocketChannelImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="660" column="29" selection-start-line="660" selection-start-column="25" selection-end-line="660" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.43.Final/acaa896a0890ca6c902fa9fe64a282dead26f183/netty-all-4.1.43.Final-sources.jar!/io/netty/bootstrap/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/secondExample/MyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/secondExample/MyClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/thirdExample/myChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/forthexample/myServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/forthexample/myServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/thirdExample/myChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/fifthExample.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/forthexample/myServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/secondExample/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="16" column="84" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/secondExample/MyClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/thirdExample/myChatClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/secondExample/MyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/thirdExample/myChatServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/thirdExample/myChatServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/fifthExample/webSocketChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/fifthExample/myServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="46" column="75" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bianzj/netty/fifthExample/testWebSocketFrameHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
